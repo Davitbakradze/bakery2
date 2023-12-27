@@ -8,12 +8,20 @@
 
 body{
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .header{
   height: 58px;
   width: 100%;
   background-color: #171B1B;
+  position: relative;
+}
+
+.header-svg{
+  position: absolute;
+  top: 0%;
+  left: 53%;
 }
 
 .container{
@@ -113,6 +121,10 @@ body{
     height: 48px;
     margin-left: 175px;
   }*/
+
+  .header-svg{
+    display: none;
+  }
 }
 
 
